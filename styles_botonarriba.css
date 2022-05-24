@@ -1,0 +1,50 @@
+.cm-up{
+    display: none;
+    position: fixed;
+    background: #2a3341; 
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+.cm-up .cm-text-up{
+
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 0;
+    font-size: 16px;
+    line-height: 30px;
+    width: 0;
+    transition: 0.4s;
+}
+.cm-up .cm-icon{
+   
+    color:#32e0c4;
+    font-size: 30px;
+    float: right;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cm-up:hover > .cm-text-up{
+    width: 150px;
+    padding:  0 6px;
+}
+.btn-arriba{
+    border-bottom: none;
+    background-color: none;
+}
+@media screen (min-width: 320px){
+    .cm-up:hover > .cm-text-up{
+        width: 0px;
+        padding: 0 6px;
+    }
+    
+}

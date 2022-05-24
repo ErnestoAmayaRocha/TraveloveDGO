@@ -1,0 +1,497 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	
+}
+
+a {
+	outline: none !important;
+}
+/*-----Header & Banner -------*/
+.navbar-brand {
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+	font-size: 26px;
+}
+.navbar-brand:hover {
+	color: #32e0c4;
+}
+.navbar-toggle {
+	background-color: #ffffff;
+}
+.navbar-toggle .icon-bar {
+	background-color: RGBA(0, 0, 0, 0.48);
+}
+/*---------------------Banners de cada viaje----------------------*/
+.bannercubi {
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/cubi.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannermapi {
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/mapimi.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannerparras{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/parras.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannergrutas{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/grutas.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannermaza{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/maza.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannerjerez{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/jerez.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.banneraca{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/acapulco.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannerhuasteca{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/huasteca.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannervallarta{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/vallarta.jpeg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannernewy{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/newy.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannerzaca{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/zaca.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannermexi{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/mexi.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannerreal{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/real.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannergdl{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/gdl.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannertoluca{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/toluca.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannersilen{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/silen.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bannernaya{
+	background-attachment: fixed;
+	background-color: #645862;
+	background-image: url(images/naya.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+/*-----------------Fin banners--------------------------------*/
+
+/*-----------------Header & banner--------------------------------*/
+.bg-overlay {
+	padding: 280px 0 220px;
+	background-color: #3f4144af;
+}
+.banner-text h2 {
+	font-size: 50px;
+}
+.banner-text h2 span {
+	color: #32e0c4;
+}
+.banner-text p {
+	font-size: 15px;
+}
+.banner-button {
+	border: rgba(204, 204, 204, 0.18) 1px solid;
+	padding: 12px 35px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+	font-size: 15px;
+	margin-top: 50px;
+}
+.banner-button:hover {
+	background-color: #32e0c38f;
+	text-decoration: none;
+	color: #fff;
+}
+.mynav {
+	transition: all 0.8s ease-in;
+	background: #222831 none repeat scroll 0% 0%;
+}
+.mynav li a {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+.nav > li > a:focus, .nav > li > a {
+	color: #ffffff;
+}
+.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.focus > a {
+	background-color: #7ca79f8a;
+	color: #fff;
+	border-bottom: 2px solid #32e0c4;
+}
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+.navbar-header img{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+/*-----Header & Banner-------*/
+
+/*-----sobre viaje-------*/
+.features {
+	padding: 100px 0px;
+	float: left;
+	width: 100%;
+	background:  linear-gradient(to bottom, rgba(50, 224, 195, 0.349), white);
+}
+.icon-box {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	display: inline-box;
+	border:  #1a1f25 1px solid;
+	border-radius: 50%;
+	padding: 0px !important;
+}	
+.icon-box i {
+	line-height: 70px;
+	font-size: 25px;
+	color:  #1a1f25;;
+}
+.feature-text {
+	padding-left: 10px;
+	color: black;
+}
+.feature-text h4 {
+	color: black;
+	line-height: 25px;
+	font-size: 22px;
+	
+}
+.features h2 strong{
+	letter-spacing: 0.3rem;
+	color: #1a1f25;
+	font-size: 1.5em;
+
+}
+.features p{
+	text-align: justify;
+	font-size: 2.2rem;
+	line-height: 50px;
+	color: black;
+}
+.paquete{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	
+}
+.paquete strong{
+	margin-top: 0px;
+	margin-bottom: 50px;
+	border-bottom: 3px solid #32e0c4;
+	display: inline-block;
+	line-height: 52px;
+	font-size: 40px;
+	color: #1a1f25;
+	letter-spacing: 0.1rem;
+}
+
+
+.bg-overlay h2{
+	color: #ffffff;
+}
+.cursiva{
+	font-style: italic;
+
+}
+
+/*-----Fin sobre viaje-------*/
+
+
+/*-----Portafolio de img-------*/
+
+.portfolio {
+	padding: 0px 0;
+	background-image: none;
+	float: left;
+	width: 100%;
+}
+.portfolio-item {
+	margin-bottom: 30px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.img-portfolio {
+	margin: auto auto;
+	border-radius: 10px;
+}
+.img-portfolio:hover {
+	
+	-webkit-transform:scale(1.4);transform:scale(1.3);
+	border-radius: 10px;
+	transition:all .8s ease-in-out;
+	
+}
+.portfolio h3 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	border-bottom: 3px solid #32e0c4;
+	display: inline-block;
+	line-height: 52px;
+	font-size: 60px;
+}
+
+
+/*-----Portfolio de img fin-------*/
+
+/*--------------footer-----------*/
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
+footer {
+	
+	background: #1a1f25; }
+	
+	footer .copy {
+	  background: #1a1f25;
+	  text-align: center; }
+	  footer .copy p {
+		  font-size: 18px;
+		color: #fff; }
+	  footer .copy a {
+		color: #fff;
+		transition: 0.3s ease;
+		text-decoration: none; }
+		footer .copy a:hover {
+		  color: #ffffff; }
+	@media (max-width: 1199px) {
+	  footer .contact-form {
+		margin: 50px auto; } }
+	@media (max-width: 767px) {
+	  footer .map {
+		min-height: 300px; } }
+  
+		.pt-4, .py-4 {
+			padding-top: 2.5rem!important;
+			padding-bottom: 2rem!important;}
+
+
+/*-----Contact Starts-------*/
+
+@media (min-width:0px) and (max-width: 600px) {
+	.bg-overlay {
+		padding: 180px 0 120px;
+	}
+	.banner-text h2 {
+		font-size: 35px;
+	}
+	nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+		border-bottom: #32e0c4;
+		
+	}
+	 .features,.about, .portfolio, .contact, .testimonials {
+		margin-bottom:  0px;
+	}
+	.features{
+		align-items: center;
+	}
+	h3 strong{
+		font-size: 0.8em;
+	}
+	.cm-up .cm-text-up{
+		display: none;
+		border: none;
+		background: none;
+		outline: none;
+		cursor: pointer;
+		color: #fff;
+		padding: 0;
+		font-size: 16px;
+		line-height: 30px;
+		width: 0;
+		transition: 0.4s;
+	}
+	.btn-viajes{
+		padding: 10px 36px;
+	}
+	
+}

@@ -1,0 +1,151 @@
+body{
+    
+    margin: 0;
+    min-height: 100vh;
+   /* background-image: url(images/DurangoPortada.jpg);*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbar-brand {
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+	font-size: 26px;
+}
+.navbar-brand:hover {
+	color: #32e0c4;
+}
+.navbar-toggle {
+	background-color: #fff;
+}
+.navbar-toggle .icon-bar {
+	background-color: RGBA(0, 0, 0, 0.48);
+}
+.mynav {
+	transition: all 0.8s ease-in;
+	background: #222831 none repeat scroll 0% 0%;
+}
+.mynav li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+	font-weight: 400;
+}
+.nav > li > a:focus, .nav > li > a {
+	color: #ffffff;
+}
+.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+	background-color: #7ca79f8a;
+	color: #ffffff;
+	border-bottom: 2px solid #32e0c4;
+}
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+/*Texto*/
+.features {
+	padding: 100px 0px;
+	float: left;
+    width: 100%;
+    background:  white;
+    
+}
+.feature-text {
+	padding-left: 10px;
+	color: black;
+}
+.feature-text h4 {
+	color: black;
+	line-height: 25px;
+	font-size: 22px;
+	
+}
+.features h2 strong{
+	letter-spacing: 0.3rem;
+	color: #1a1f25;
+	font-size: 1.5em;
+
+}
+.features p{
+	text-align: justify;
+	font-size: 2.2rem;
+	line-height: 50px;
+	color: #15191f;
+}
+.container h1{
+    text-align: center;
+}
+.container  img{
+    
+    border-radius: 8px;
+    max-width: 250px;
+    max-height: 250px;
+   /* box-shadow: 6px 20px 10px rgba(48, 48, 48, 0.555);*/
+   
+}
+.img-portafolio{
+    margin:10px auto;
+    display:block;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.features h1 {
+	margin-top: 0px;
+	border-bottom: 3px solid #32e0c4;
+	display: inline-block;
+	line-height: 52px;
+    font-size: 60px;
+    color: #1a1f25;
+}
+.buttons{
+    display: flex;
+  justify-content: center;
+  
+
+    }
+.banner-button {
+	border: #1a1f25d5 2px solid;
+	padding: 12px 35px;
+	color: #1a1f25;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+	font-size: 16px;
+    margin-top: 50px;
+    font-family: 'lato', sans-serif;
+}
+.banner-button:hover {
+	font-size:18px ;
+	text-decoration: none;
+	color: #1a1f25;
+}
+@media (min-width:0px) and (max-width: 600px) {
+	.bg-overlay {
+		padding: 180px 0 120px;
+	}
+	.banner-text h2 {
+		font-size: 35px;
+	}
+	nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+		border-bottom: #32e0c4;
+		
+	}
+	 .features,.about, .portfolio, .contact, .testimonials {
+		padding: 70px 0px;
+	}
+	.features{
+		align-items: center;
+	}
+	h3 strong{
+		font-size: 0.8em;
+	}
+	.buttons{
+        display: flex;
+        justify-content: center;
+    }
+}

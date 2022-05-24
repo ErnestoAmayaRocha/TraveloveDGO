@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+   
+   
+
+
+   
+    
+}
+
+
+.contenedor{
+    width: 100%;
+    max-width: 10000px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    outline: none!important;
+    text-decoration: none!important;
+}
+.login-form {
+    
+    height: 140vh;
+    background-image: url(../img/bannerregis.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 15px;
+}
+
+
+.login-form .box {
+    position: relative;
+    min-width: 400px;
+    min-height: 100px;
+    background-color:#6b6b6b00;
+    box-shadow: -1px 0 10px 2px #00000000, -1px -1px 0 1px #000000, -1px 1px 0 1px rgba(0, 0, 0, 0.25), 0 -1px 0 1px #000000, 0 1px 0 1px #000000, 1px -1px 0 1px #000000, 1px 1px 0 1px #000000, 1px 0 0 1px #000000;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.login-form form {
+    position: relative;
+}
+.login-form form .img {
+    margin-bottom: 80px;
+    margin-left: 60px;
+}
+.login-form form .img img { 
+    position: absolute;
+    width: 130px;
+    top: 10px;
+    left: 140px;
+    z-index: 1;
+}
+.login-form .box .heading h2 {
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,1);
+    padding: 50px 0px 20px 0px;
+    margin: 0;
+}
+.login-form .box .heading h2::before {
+    border-radius: 50%;
+    box-shadow: 0 0 6px 4px #fff;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: -5px;
+    width: 8px;
+}
+.login-form .box .heading h2::after {
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    content: "";
+    display: block;
+    pointer-events: none;
+    bottom: 0;
+    left: 190px;
+    transform-style: flat;
+    transform: skew(42deg);
+    background: -moz-linear-gradient(top, rgb(255, 255, 255) 0%, hsla(0,0%,100%,0) 100%);
+    
+    background: -webkit-linear-gradient(top, hsla(0,0%,100%,0.1) 0%,hsla(0,0%,100%,0) 100%);
+    background: -o-linear-gradient(top, hsla(0,0%,100%,0.1) 0%,hsla(0,0%,100%,0) 100%);
+    background: -ms-linear-gradient(top, hsla(0,0%,100%,0.1) 0%,hsla(0,0%,100%,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42ffffff', endColorstr='#00ffffff',GradientType=0 );
+    background: linear-gradient(to bottom, hsla(0,0%,100%,0.1) 0%,hsla(0,0%,100%,0) 100%)
+}
+.login-form .box .form-fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 40px;
+    border-top: 1px solid #19191a;
+}
+.login-form .box .form-fields .input-box {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+.login-form .box .form-fields .input-box .form-control {
+    height: 40px;
+    width: 100%;
+    padding: 0px 0px 0px 45px;
+    color: #000000;
+    border: 1px solid #222222;
+    box-shadow: 0 1px 0 rgba(248, 248, 248, 0.1);
+    border-radius: 0.3em;
+    background: linear-gradient(#f3f4f5, #fdfeff);
+    text-transform: uppercase;
+  
+}
+.login-form .box .form-fields .input-box .form-control1 {
+    height: 40px;
+    width: 100%;
+    padding: 0px 0px 0px 45px;
+    color: #000000;
+    border: 1px solid #222222;
+    box-shadow: 0 1px 0 rgba(248, 248, 248, 0.1);
+    border-radius: 0.3em;
+    background: linear-gradient(#f3f4f5, #fdfeff);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.login-form .box .form-fields .input-box .form-control:hover {
+    background:#f1f1f1;
+}
+.login-form .box .form-fields .input-box .form-control:focus {
+    border:1px solid #1969e0;
+}
+.login-form .box .form-fields .input-box .form-control::placeholder {
+    color: #000000;
+}
+.login-form .box .form-fields .input-box span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #000000;
+}
+.login-form .box .form-fields .input-box span img {
+    width: 26px;
+}
+.login-form .box .form-fields .button-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.login-form .box .form-fields .button-box button {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 35px;
+    background-color: #0089fe;
+    transition: box-shadow .5s ease;
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    border: none;
+    cursor: pointer;
+    margin: 15px 25px 0px 85px;
+    border-radius: 20px;
+    
+}
+
+
+
+.nocuenta{
+
+    background-color: rgb(41, 138, 250);
+    
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    margin-top: 30px;
+    width: 200PX;
+    margin-left: 50PX;
+    border-radius: 30PX;
+    height: 30px;
+    
+}
+
+
+
+
+
+
+.login-form .box .form-fields .button-box1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.login-form .box .form-fields .button-box1 button {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 35px;
+    background-color: rgb(41, 138, 250);
+    transition: box-shadow .5s ease;
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    border-color: none;
+    
+    cursor: pointer;
+    margin: 15px 25px 0px 85px;
+    border-radius: 20px;
+    
+    
+}
+
+.genero{
+
+    size: 100px;
+    width: 320px;
+    height: 40px;
+    margin-bottom: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-form .box .form-fields .button-box1 button:hover {
+    box-shadow: 0px 0px 10px gray;
+}
+.login-form .box .form-fields .button-box1 a {
+    font-size: 16px;
+    color: rgb(41, 138, 250);
+    margin-top: 15px;
+    
+}
+
+
+
+
+
+
+
+.login-form .box .form-fields .button-box button:hover {
+    box-shadow: 0px 0px 10px gray;
+}
+.login-form .box .form-fields .button-box a {
+    font-size: 16px;
+    color: rgb(41, 138, 250);
+    margin-top: 15px;
+}
+.login-form .box .social-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    
+}
+.login-form .box .social-links p {
+    text-align: center;
+    color: rgb(41, 138, 250);
+    
+    
+    font-size: 18px;
+    margin: 20px 0px 20px;
+}
+.login-form .box .social-links .links-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.login-form .box .social-links .links-box img {
+    width: 40px;
+    transition: transform .5s ease;
+    -webkit-transition: transform .5s ease;
+    -moz-transition: transform .5s ease;
+    -ms-transition: transform .5s ease;
+    -o-transition: transform .5s ease;
+}
+.login-form .box .social-links .links-box a {
+    color: #ffffff;
+    padding: 8px;
+    width: calc(33.3% - 15px);
+    font-size: 14px;
+    text-align: center;
+    transition: box-shadow .5s ease;
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+}
+.login-form .box .social-links .links-box a img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+/** Responsive **/
+@media (max-width: 500px) {
+ 
+    .login-form .box {
+        min-width: 100%;
+    }
+    .login-form form {
+        position: relative;
+    }
+
+    .login-form .box .heading h2::after {
+        width: 460px;
+    }
+    .login-form form .img {
+        position: relative;
+    }
+    .login-form form .img img {
+        left: 130px;
+    }
+
+}
+@media (max-width: 360px) {
+    .login-form .box {
+        min-height: 380px;
+    }
+    .login-form form .img img {
+        left: 115px;
+    }
+    .login-form .box .form-fields {
+        padding: 10px 20px;
+    }
+    .login-form .box .heading h2::after {
+        left: 172px;
+ 
+ 
+    }
+    
+    
+    
+}

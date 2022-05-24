@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../cssvariado/estiloslogin.css">
+    <link rel="shorcut icon" type="image/x-icon" href="../img/logotra.png" >
+    <script src="validarlogin.js"></script>
+    <link rel="stylesheet" href="sweetalert/package/dist/sweetalert2.all.min.js">
+</head>
+<body>
+    <section class="login-form">
+        <form action="../php/checklogin.php" method="POST" onsubmit="return validar1(this);">
+            <div class="img">
+                <img src="../img/logotra.png" width="100%" alt="Logo travelove">
+            </div>
+            <div class="box">
+                <div class="heading">
+                    <h2></h2>
+                </div>
+                <div class="form-fields">
+                    <div class="input-box">
+                        <input type="text" placeholder="Usuario" class="form-control1" id="usua" name="txtusuario"> 
+                        <span><img src="../img/icono nombre.png" alt=""></span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="password" placeholder="Contraseña" class="form-control1" id="contra" name="txtpass">
+                        <span><img src="../img/iconocandado.png" alt=""></span>
+                    </div>
+                    <div class="button-boxlog">
+                        <center> <button type="submit">Ingresar</button></center>
+                        
+                  
+                </div>
+                
+              </div>
+                        <div class="nocuenta">
+                    <a href="registro1.html"  style="color: white;" >No tienes cuenta?, crea una</a>
+                    
+                </div>
+                
+                
+                
+                   
+                
+                </div>
+            </div>
+        </form>
+
+    </section>
+    <script src="sweetalert/package/dist/sweetalert2.all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+a {
+	outline: none !important;
+}
+/*-----Header & Banner -------*/
+.navbar-brand {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #ffffff;
+	font-size: 26px;
+}
+.navbar-brand:hover {
+	color: #32e0c4;
+}
+.navbar-toggle {
+	background-color: #fff;
+}
+.navbar-toggle .icon-bar {
+	background-color: RGBA(0, 0, 0, 0.48);
+}
+/*-----------------Header & banner--------------------------------*/
+.bg-overlay {
+	padding: 280px 0 220px;
+	background-color: #3f4144af;
+}
+.banner-text h2 {
+	font-size: 50px;
+}
+.banner-text h2 span {
+	color: #32e0c4;
+}
+.banner-text p {
+	font-size: 15px;
+}
+.banner-button {
+	border: rgba(204, 204, 204, 0.18) 1px solid;
+	padding: 12px 35px;
+	color: #ccc;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+	font-size: 15px;
+	margin-top: 50px;
+}
+.banner-button:hover {
+	background-color: #32e0c38f;
+	text-decoration: none;
+	color: #fff;
+}
+.mynav {
+	transition: all 0.8s ease-in;
+	background: #222831 none repeat scroll 0% 0%;
+}
+.mynav li a {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+.nav > li > a:focus, .nav > li > a {
+	color: #E1DBDB;
+}
+.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+	background-color: #7ca79f8a;
+	color: #fff;
+	border-bottom: 2px solid #32e0c4;
+}
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+.navbar-header img{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+/*-----Header & Banner-------*/
+
+/*-----sobre viaje-------*/
+.features {
+	padding: 100px 0px;
+	float: left;
+	width: 100%;
+	background: linear-gradient(-45deg, #a8d4cd, white);
+}
+	
+
+.feature-text {
+	padding-left: 10px;
+    color: black;
+    line-height: 70px;
+    font-weight: bolder;
+}
+.feature-text h4 {
+	color: black;
+	line-height: 20px;
+	
+}
+.paquete{
+	text-align: center;
+	padding-bottom: 100px;
+	
+	
+}
+.paquete strong{
+	margin-top: 0px;
+	margin-bottom: 50px;
+	border-bottom: 3px solid #32e0c4;
+	display: inline-block;
+	line-height: 52px;
+	font-size: 40px;
+}
+.container p{
+	text-align: justify;
+	font-size: large;
+	line-height: 40px;
+	color: black;
+}
+.container h2{
+	color: black;
+}
+.cursiva{
+	font-style: italic;
+
+}
+
+/*-----Fin sobre viaje-------*/
+
+
+/*-----Portafolio de img-------*/
+
+.portfolio {
+	padding: 50px 0;
+
+	float: left;
+	width: 100%;
+}
+.portfolio-item {
+	margin-bottom: 30px;
+	overflow: hidden;
+	
+}
+
+.img-portfolio {
+	margin: auto auto;
+	
+}
+.img-portfolio:hover {
+	
+	-webkit-transform:scale(1.4);transform:scale(1.3);
+	
+	transition:all .8s ease-in-out;
+	
+}
+.portfolio h3 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	border-bottom: 3px solid #32e0c4;
+	display: inline-block;
+	line-height: 52px;
+	font-size: 60px;
+}
+
+
+/*-----Portfolio de img fin-------*/
+
+
+
+/*-----Contact Starts-------*/
+
+@media (min-width:0px) and (max-width: 600px) {
+	.bg-overlay {
+		padding: 180px 0 120px;
+	}
+	.banner-text h2 {
+		font-size: 35px;
+	}
+	nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+		border-bottom: 2px solid #32e0c4;
+		
+	}
+	 .features,.about, .portfolio, .contact, .testimonials {
+		padding: 70px 0px;
+	}
+	
+}
